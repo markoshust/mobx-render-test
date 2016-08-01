@@ -21,7 +21,7 @@ const Item2 = observer(({ b }) => (
   <div>
     <h1>Item 2</h1>
     <p>Value: {b}</p>
-    <button onClick={() => store.b++ }>Increment state a</button>
+    <button onClick={() => store.b++ }>Increment state b</button>
     {console.log('Rendered Item2')}
   </div>
 ));
